@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="login"
+>
+  <div
+    className="loginWrapper"
+  >
+    <div
+      className="loginLeft"
+    >
+      <h3
+        className="loginLogo"
+      >
+        Fakebook
+      </h3>
+      <span
+        className="loginDesc"
+      >
+        Connect with friends and the world around you on Fakebook.
+      </span>
+    </div>
+    <div
+      className="loginRight"
+    >
+      <form
+        className="loginBox"
+        onSubmit={[Function]}
+      >
+        <input
+          className="loginInput"
+          placeholder="Username"
+          required={true}
+        />
+        <input
+          className="loginInput"
+          placeholder="Email"
+          required={true}
+          type="email"
+        />
+        <input
+          className="loginInput"
+          minLength="6"
+          placeholder="Password"
+          required={true}
+          type="password"
+        />
+        <input
+          className="loginInput"
+          placeholder="Password Again"
+          required={true}
+          type="password"
+        />
+        <button
+          className="loginButton"
+          type="submit"
+        >
+          Sign Up
+        </button>
+        <button
+          className="loginRegisterButton"
+        >
+          Log into Account
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
